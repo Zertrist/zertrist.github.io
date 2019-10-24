@@ -1,0 +1,64 @@
+body{
+	font-family: Rosalinda;
+	background: url(../img/уют.jpg) no-repeat center / cover fixed;
+}
+@font-face{
+	font-family: Rosalinda;
+	src: url("../font/Rosalinda.ttf");
+}
+.container{
+	width: 400px;
+	height: 100%;
+	margin:0 auto;
+}
+.insta-link{
+	display: block;
+	width: 50%;
+	margin: 0 auto;
+	
+}
+.insta-img{
+	width: 100%;
+	border-radius: 50%;
+}
+.table{
+	width: 100%;
+	height: 270px;
+	background: url("../img/tablichka3.png") no-repeat center / 80%;
+	position: relative;
+	bottom: 70px;
+	z-index: -1;
+}
+.table-text{
+	width: 100%;
+	height: 128px;
+	text-align: center;
+	line-height: 2;
+	font-size: 2rem;
+	font-weight: bold;
+	color: #f6bd6d;
+	position: absolute;
+	bottom:20px;
+}
+.menu{
+	height: 100%;
+	width: 100%;
+	position: relative;
+	bottom: 65px;
+}
+.menu a{
+	display: block;
+	width: 160px;
+	height: 130px;
+	list-style: none;
+	margin: 20px auto 0;
+}
+.p1{
+	background: url(../img/Вступ.png) no-repeat center / cover
+}
+.p2{
+	background: url(../img/Правила.png) no-repeat center / cover
+}
+.p3{
+	background: url(../img/Інтерактив.png) no-repeat center / cover
+}
